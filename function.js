@@ -8,12 +8,12 @@ document.getElementById('img1').setAttribute('src', randomDiceImage1);
 document.getElementById('img2').setAttribute('src', randomDiceImage2);
 
 if (randomDiceImage1 > randomDiceImage2) {
-    document.querySelector('h1').textContent = "Player 1 Wins";
+    document.querySelector('h1').textContent = "🚩Player 1 Wins";
 }
 else if(randomDiceImage2 === randomDiceImage1 ){
     document.querySelector('h1').textContent = "It's a Draw";
 }
 
 else{
-    document.querySelector('h1').textContent = "Player 2 Wins";
+    document.querySelector('h1').textContent = "Player 2 Wins🚩";
 }
